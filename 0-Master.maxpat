@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 97.0, 182.0, 1253.0, 910.0 ],
+		"rect" : [ 127.0, 95.0, 1253.0, 660.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,42 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 38.0, 531.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 38.0, 566.0, 63.0, 22.0 ],
+					"text" : "qmetro 30"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 105.0, 566.0, 35.0, 22.0 ],
+					"text" : "open"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-116",
 					"maxclass" : "newobj",
@@ -474,7 +510,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 38.0, 790.0, 61.0, 22.0 ],
+					"patching_rect" : [ 38.0, 820.0, 61.0, 22.0 ],
 					"text" : "jit.window"
 				}
 
@@ -483,10 +519,10 @@
 				"box" : 				{
 					"id" : "obj-47",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1066.0, 673.0, 102.0, 22.0 ],
+					"patching_rect" : [ 1066.0, 733.0, 102.0, 22.0 ],
 					"text" : "E.1.-video-effects"
 				}
 
@@ -495,10 +531,10 @@
 				"box" : 				{
 					"id" : "obj-46",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 937.5, 673.0, 102.0, 22.0 ],
+					"patching_rect" : [ 937.5, 733.0, 102.0, 22.0 ],
 					"text" : "E.1.-video-effects"
 				}
 
@@ -507,10 +543,10 @@
 				"box" : 				{
 					"id" : "obj-45",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 809.0, 673.0, 102.0, 22.0 ],
+					"patching_rect" : [ 809.0, 733.0, 102.0, 22.0 ],
 					"text" : "E.1.-video-effects"
 				}
 
@@ -519,10 +555,10 @@
 				"box" : 				{
 					"id" : "obj-44",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 680.5, 673.0, 102.0, 22.0 ],
+					"patching_rect" : [ 680.5, 733.0, 102.0, 22.0 ],
 					"text" : "E.1.-video-effects"
 				}
 
@@ -531,10 +567,10 @@
 				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 552.0, 673.0, 102.0, 22.0 ],
+					"patching_rect" : [ 552.0, 733.0, 102.0, 22.0 ],
 					"text" : "E.1.-video-effects"
 				}
 
@@ -543,10 +579,10 @@
 				"box" : 				{
 					"id" : "obj-42",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 423.5, 673.0, 102.0, 22.0 ],
+					"patching_rect" : [ 423.5, 733.0, 102.0, 22.0 ],
 					"text" : "E.1.-video-effects"
 				}
 
@@ -555,10 +591,10 @@
 				"box" : 				{
 					"id" : "obj-41",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 295.0, 673.0, 102.0, 22.0 ],
+					"patching_rect" : [ 295.0, 733.0, 102.0, 22.0 ],
 					"text" : "E.1.-video-effects"
 				}
 
@@ -567,10 +603,10 @@
 				"box" : 				{
 					"id" : "obj-40",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 166.5, 673.0, 102.0, 22.0 ],
+					"patching_rect" : [ 166.5, 733.0, 102.0, 22.0 ],
 					"text" : "E.1.-video-effects"
 				}
 
@@ -579,10 +615,10 @@
 				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 38.0, 673.0, 102.0, 22.0 ],
+					"patching_rect" : [ 38.0, 733.0, 102.0, 22.0 ],
 					"text" : "E.1.-video-effects"
 				}
 
@@ -592,10 +628,10 @@
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 9,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 38.0, 739.0, 1047.0, 22.0 ],
-					"text" : "E.3-create-grid"
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 38.0, 799.0, 1047.0, 22.0 ],
+					"text" : "jit.glue @columns 3 @rows 3"
 				}
 
 			}
@@ -604,9 +640,8 @@
 					"id" : "obj-22",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1067.0, 622.0, 115.0, 22.0 ],
+					"numoutlets" : 0,
+					"patching_rect" : [ 1067.0, 682.0, 115.0, 22.0 ],
 					"text" : "C.2-play-video-file 9"
 				}
 
@@ -616,9 +651,8 @@
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 938.375, 622.0, 115.0, 22.0 ],
+					"numoutlets" : 0,
+					"patching_rect" : [ 938.375, 682.0, 115.0, 22.0 ],
 					"text" : "C.2-play-video-file 8"
 				}
 
@@ -628,9 +662,8 @@
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 809.75, 622.0, 115.0, 22.0 ],
+					"numoutlets" : 0,
+					"patching_rect" : [ 809.75, 682.0, 115.0, 22.0 ],
 					"text" : "C.2-play-video-file 7"
 				}
 
@@ -640,9 +673,8 @@
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 681.125, 622.0, 115.0, 22.0 ],
+					"numoutlets" : 0,
+					"patching_rect" : [ 681.125, 682.0, 115.0, 22.0 ],
 					"text" : "C.2-play-video-file 6"
 				}
 
@@ -652,9 +684,8 @@
 					"id" : "obj-21",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 552.5, 622.0, 115.0, 22.0 ],
+					"numoutlets" : 0,
+					"patching_rect" : [ 552.5, 682.0, 115.0, 22.0 ],
 					"text" : "C.2-play-video-file 5"
 				}
 
@@ -664,9 +695,8 @@
 					"id" : "obj-16",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 423.875, 622.0, 115.0, 22.0 ],
+					"numoutlets" : 0,
+					"patching_rect" : [ 423.875, 682.0, 115.0, 22.0 ],
 					"text" : "C.2-play-video-file 4"
 				}
 
@@ -676,9 +706,8 @@
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 295.25, 622.0, 115.0, 22.0 ],
+					"numoutlets" : 0,
+					"patching_rect" : [ 295.25, 682.0, 115.0, 22.0 ],
 					"text" : "C.2-play-video-file 3"
 				}
 
@@ -688,9 +717,8 @@
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 166.625, 622.0, 115.0, 22.0 ],
+					"numoutlets" : 0,
+					"patching_rect" : [ 166.625, 682.0, 115.0, 22.0 ],
 					"text" : "C.2-play-video-file 2"
 				}
 
@@ -700,9 +728,8 @@
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 38.0, 622.0, 115.0, 22.0 ],
+					"numoutlets" : 0,
+					"patching_rect" : [ 38.0, 682.0, 115.0, 22.0 ],
 					"text" : "C.2-play-video-file 1"
 				}
 
@@ -711,9 +738,9 @@
 				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.0, 580.0, 119.0, 22.0 ],
+					"patching_rect" : [ 38.0, 640.0, 119.0, 22.0 ],
 					"text" : "A.2-rec-video-to-disk"
 				}
 
@@ -725,7 +752,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 38.0, 540.0, 45.0, 22.0 ],
+					"patching_rect" : [ 38.0, 600.0, 45.0, 22.0 ],
 					"text" : "jit.grab"
 				}
 
@@ -876,43 +903,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-46", 0 ],
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
-					"source" : [ "obj-19", 0 ]
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -920,27 +912,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -955,6 +926,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -1093,6 +1071,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
 					"source" : [ "obj-70", 0 ]
 				}
@@ -1185,72 +1170,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "A.1-rec-audio-to-disk.maxpat",
-				"bootpath" : "~/Google Drive/Multimedia/Seminar Materials/Max-Lab-2/Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "A.2-rec-video-to-disk.maxpat",
-				"bootpath" : "~/Google Drive/Multimedia/Seminar Materials/Max-Lab-2/Patches",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/HfMT/Max/MSP Lab/II SS 20/Naked_Group",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "C.2-play-video-file.maxpat",
-				"bootpath" : "~/Google Drive/Multimedia/Seminar Materials/Max-Lab-2/Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "E.3-create-grid.maxpat",
-				"bootpath" : "~/Google Drive/Multimedia/Seminar Materials/Max-Lab-2/Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "E.1.-video-effects.maxpat",
-				"bootpath" : "~/Google Drive/Multimedia/Seminar Materials/Max-Lab-2/Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "C.1-play-audio-file.maxpat",
-				"bootpath" : "~/Google Drive/Multimedia/Seminar Materials/Max-Lab-2/Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "D.1.-audio-effects.maxpat",
-				"bootpath" : "~/Google Drive/Multimedia/Seminar Materials/Max-Lab-2/Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "D.3-mix-audio.maxpat",
-				"bootpath" : "~/Google Drive/Multimedia/Seminar Materials/Max-Lab-2/Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "D.2.-audio-effects2.maxpat",
-				"bootpath" : "~/Google Drive/Multimedia/Seminar Materials/Max-Lab-2/Patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "B.1.-Master.maxpat",
-				"bootpath" : "~/Google Drive/Multimedia/Seminar Materials/Max-Lab-2/Patches",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/HfMT/Max/MSP Lab/II SS 20/Naked_Group",
 				"type" : "JSON",
 				"implicit" : 1
 			}
